@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200F31D716926A56005AC5B2 /* sarahj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 200F31D616926A56005AC5B2 /* sarahj.jpg */; };
+		20387BDB1BBB099F0007D6F2 /* BlogDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 20387BDA1BBB099F0007D6F2 /* BlogDomain.m */; };
+		20D16FDD16B5F60800A92AF1 /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D16FDB16B5F60800A92AF1 /* DisclaimerViewController.m */; };
+		20D16FDE16B5F60800A92AF1 /* DisclaimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D16FDC16B5F60800A92AF1 /* DisclaimerViewController.xib */; };
+		20E3C7661BB99C1900235CB2 /* BlogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E3C7651BB99C1900235CB2 /* BlogController.m */; };
+		20ECD7D01BCF21A6008656BF /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ECD7CE1BCF21A6008656BF /* BlogViewController.m */; };
+		20ECD7D11BCF21A6008656BF /* BlogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20ECD7CF1BCF21A6008656BF /* BlogViewController.xib */; };
+		20ECD7D31BD8582E008656BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ECD7D21BD8582E008656BF /* Images.xcassets */; };
+		20ECD7D51BD858C6008656BF /* MBP57.png in Resources */ = {isa = PBXBuildFile; fileRef = 20ECD7D41BD858C6008656BF /* MBP57.png */; };
+		20F2D32C16935837006F5E8B /* the_music_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F2D32B16935837006F5E8B /* the_music_icon.png */; };
+		20F2D32E169555E8006F5E8B /* saraj57.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F2D32D169555E8006F5E8B /* saraj57.png */; };
+		20F2D33C16B5EA07006F5E8B /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2D33A16B5EA07006F5E8B /* HelpViewController.m */; };
+		20F2D33D16B5EA07006F5E8B /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F2D33B16B5EA07006F5E8B /* HelpViewController.xib */; };
+		B64B25271584541E00EF9DC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B25261584541E00EF9DC0 /* UIKit.framework */; };
+		B64B25291584541E00EF9DC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B25281584541E00EF9DC0 /* Foundation.framework */; };
+		B64B252B1584541E00EF9DC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B252A1584541E00EF9DC0 /* CoreGraphics.framework */; };
+		B64B25311584541E00EF9DC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B64B252F1584541E00EF9DC0 /* InfoPlist.strings */; };
+		B64B25331584541E00EF9DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B25321584541E00EF9DC0 /* main.m */; };
+		B64B25371584541E00EF9DC0 /* SarahJMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B25361584541E00EF9DC0 /* SarahJMPAppDelegate.m */; };
+		B64B253A1584541E00EF9DC0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64B25381584541E00EF9DC0 /* MainWindow.xib */; };
+		B64B25401584541E00EF9DC0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B253F1584541E00EF9DC0 /* SecondViewController.m */; };
+		B64B25461584541E00EF9DC0 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64B25441584541E00EF9DC0 /* SecondView.xib */; };
+		B64B254F1584541F00EF9DC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B25261584541E00EF9DC0 /* UIKit.framework */; };
+		B64B25501584541F00EF9DC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B25281584541E00EF9DC0 /* Foundation.framework */; };
+		B64B25511584541F00EF9DC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B252A1584541E00EF9DC0 /* CoreGraphics.framework */; };
+		B64B25591584541F00EF9DC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B64B25571584541F00EF9DC0 /* InfoPlist.strings */; };
+		B64B255B1584541F00EF9DC0 /* SarahJMPTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B64B255A1584541F00EF9DC0 /* SarahJMPTests.h */; };
+		B64B255D1584541F00EF9DC0 /* SarahJMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B255C1584541F00EF9DC0 /* SarahJMPTests.m */; };
+		B64B256B1584576200EF9DC0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B25691584576200EF9DC0 /* SearchViewController.m */; };
+		B64B256C1584576200EF9DC0 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64B256A1584576200EF9DC0 /* SearchViewController.xib */; };
+		B64B257515845F5F00EF9DC0 /* SarahJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B257315845F5E00EF9DC0 /* SarahJViewController.m */; };
+		B64B257615845F5F00EF9DC0 /* SarahJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64B257415845F5E00EF9DC0 /* SarahJViewController.xib */; };
+		B6861BE015FC996B0085C4E2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6861BDE15FC99690085C4E2 /* CategoryViewController.m */; };
+		B6861BE115FC996B0085C4E2 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6861BDF15FC996A0085C4E2 /* CategoryViewController.xib */; };
+		B6861BE515FCB2910085C4E2 /* CatQAController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6861BE415FCB2900085C4E2 /* CatQAController.m */; };
+		B6861BE915FCC92D0085C4E2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6861BE715FCC9250085C4E2 /* FirstViewController.m */; };
+		B6861BEA15FCC92D0085C4E2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6861BE815FCC9260085C4E2 /* FirstViewController.xib */; };
+		B68AF01B1602D52C00DFADE0 /* AnswerUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68AF0191602D52B00DFADE0 /* AnswerUIController.m */; };
+		B68AF01C1602D52C00DFADE0 /* AnswerUIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68AF01A1602D52B00DFADE0 /* AnswerUIController.xib */; };
+		B68B082116077E52001B6A04 /* adviceDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B082016077E52001B6A04 /* adviceDomain.m */; };
+		B68B082416078218001B6A04 /* AdviceContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B082316078217001B6A04 /* AdviceContoller.m */; };
+		B68B08931612412E001B6A04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B68B08921612412E001B6A04 /* Default.png */; };
+		B68B089C161242F7001B6A04 /* AdviceUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B089A161242F7001B6A04 /* AdviceUIController.m */; };
+		B68B089D161242F7001B6A04 /* AdviceUIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68B089B161242F7001B6A04 /* AdviceUIController.xib */; };
+		B69A9AC415FF4D220000A1D2 /* QuestionUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69A9AC215FF4D210000A1D2 /* QuestionUIController.m */; };
+		B69A9AC515FF4D220000A1D2 /* QuestionUIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B69A9AC315FF4D220000A1D2 /* QuestionUIController.xib */; };
+		B69CA70815EBA63A00988E9D /* CatQA.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CA70715EBA63A00988E9D /* CatQA.m */; };
+		B69CA70C15EBAB0B00988E9D /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CA70B15EBAB0B00988E9D /* Data.m */; };
+		B6EBCE7215AA8E23006AA12D /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBCE7115AA8E23006AA12D /* Category.m */; };
+		B6EBCE7515ACAAF5006AA12D /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBCE7415ACAAF5006AA12D /* Categories.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B64B25521584541F00EF9DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64B25191584541D00EF9DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64B25211584541D00EF9DC0;
+			remoteInfo = SarahJMP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200F31D616926A56005AC5B2 /* sarahj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarahj.jpg; sourceTree = SOURCE_ROOT; };
+		20387BD91BBB099F0007D6F2 /* BlogDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogDomain.h; sourceTree = "<group>"; };
+		20387BDA1BBB099F0007D6F2 /* BlogDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogDomain.m; sourceTree = "<group>"; };
+		20D16FDA16B5F60800A92AF1 /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisclaimerViewController.h; path = ../DisclaimerViewController.h; sourceTree = "<group>"; };
+		20D16FDB16B5F60800A92AF1 /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisclaimerViewController.m; path = ../DisclaimerViewController.m; sourceTree = "<group>"; };
+		20D16FDC16B5F60800A92AF1 /* DisclaimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DisclaimerViewController.xib; path = ../DisclaimerViewController.xib; sourceTree = "<group>"; };
+		20E3C7641BB99C1900235CB2 /* BlogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogController.h; sourceTree = "<group>"; };
+		20E3C7651BB99C1900235CB2 /* BlogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogController.m; sourceTree = "<group>"; };
+		20ECD7CD1BCF21A6008656BF /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		20ECD7CE1BCF21A6008656BF /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		20ECD7CF1BCF21A6008656BF /* BlogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogViewController.xib; sourceTree = "<group>"; };
+		20ECD7D21BD8582E008656BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20ECD7D41BD858C6008656BF /* MBP57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MBP57.png; sourceTree = "<group>"; };
+		20F2D32B16935837006F5E8B /* the_music_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_music_icon.png; sourceTree = "<group>"; };
+		20F2D32D169555E8006F5E8B /* saraj57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saraj57.png; path = ../../Downloads/saraj57.png; sourceTree = "<group>"; };
+		20F2D33916B5EA07006F5E8B /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		20F2D33A16B5EA07006F5E8B /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		20F2D33B16B5EA07006F5E8B /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		B64B25221584541D00EF9DC0 /* SarahJMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarahJMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64B25261584541E00EF9DC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B64B25281584541E00EF9DC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B64B252A1584541E00EF9DC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B64B252E1584541E00EF9DC0 /* SarahJMP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SarahJMP-Info.plist"; sourceTree = "<group>"; };
+		B64B25301584541E00EF9DC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B64B25321584541E00EF9DC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B64B25341584541E00EF9DC0 /* SarahJMP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SarahJMP-Prefix.pch"; sourceTree = "<group>"; };
+		B64B25351584541E00EF9DC0 /* SarahJMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SarahJMPAppDelegate.h; sourceTree = "<group>"; };
+		B64B25361584541E00EF9DC0 /* SarahJMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SarahJMPAppDelegate.m; sourceTree = "<group>"; };
+		B64B25391584541E00EF9DC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B64B253E1584541E00EF9DC0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B64B253F1584541E00EF9DC0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B64B25451584541E00EF9DC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		B64B254C1584541F00EF9DC0 /* SarahJMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarahJMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64B25561584541F00EF9DC0 /* SarahJMPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SarahJMPTests-Info.plist"; sourceTree = "<group>"; };
+		B64B25581584541F00EF9DC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B64B255A1584541F00EF9DC0 /* SarahJMPTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SarahJMPTests.h; sourceTree = "<group>"; };
+		B64B255C1584541F00EF9DC0 /* SarahJMPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SarahJMPTests.m; sourceTree = "<group>"; };
+		B64B25681584576200EF9DC0 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B64B25691584576200EF9DC0 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		B64B256A1584576200EF9DC0 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		B64B257215845F5E00EF9DC0 /* SarahJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SarahJViewController.h; sourceTree = "<group>"; };
+		B64B257315845F5E00EF9DC0 /* SarahJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SarahJViewController.m; sourceTree = "<group>"; };
+		B64B257415845F5E00EF9DC0 /* SarahJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SarahJViewController.xib; sourceTree = "<group>"; };
+		B67E00E51673CB3300E6F0FD /* SarahJMP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SarahJMP.entitlements; sourceTree = "<group>"; };
+		B6861BDD15FC99690085C4E2 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		B6861BDE15FC99690085C4E2 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		B6861BDF15FC996A0085C4E2 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		B6861BE315FCB2900085C4E2 /* CatQAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatQAController.h; sourceTree = "<group>"; };
+		B6861BE415FCB2900085C4E2 /* CatQAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatQAController.m; sourceTree = "<group>"; };
+		B6861BE615FCC9250085C4E2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B6861BE715FCC9250085C4E2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B6861BE815FCC9260085C4E2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		B68AF0181602D52B00DFADE0 /* AnswerUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerUIController.h; sourceTree = "<group>"; };
+		B68AF0191602D52B00DFADE0 /* AnswerUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerUIController.m; sourceTree = "<group>"; };
+		B68AF01A1602D52B00DFADE0 /* AnswerUIController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerUIController.xib; sourceTree = "<group>"; };
+		B68B081F16077E51001B6A04 /* adviceDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adviceDomain.h; path = SarahJMP/adviceDomain.h; sourceTree = "<group>"; };
+		B68B082016077E52001B6A04 /* adviceDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adviceDomain.m; sourceTree = "<group>"; };
+		B68B082216078217001B6A04 /* AdviceContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdviceContoller.h; sourceTree = "<group>"; };
+		B68B082316078217001B6A04 /* AdviceContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdviceContoller.m; sourceTree = "<group>"; };
+		B68B08921612412E001B6A04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B68B0899161242F7001B6A04 /* AdviceUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdviceUIController.h; sourceTree = "<group>"; };
+		B68B089A161242F7001B6A04 /* AdviceUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdviceUIController.m; sourceTree = "<group>"; };
+		B68B089B161242F7001B6A04 /* AdviceUIController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdviceUIController.xib; sourceTree = "<group>"; };
+		B69A9AC115FF4D210000A1D2 /* QuestionUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionUIController.h; sourceTree = "<group>"; };
+		B69A9AC215FF4D210000A1D2 /* QuestionUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionUIController.m; sourceTree = "<group>"; };
+		B69A9AC315FF4D220000A1D2 /* QuestionUIController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionUIController.xib; sourceTree = "<group>"; };
+		B69CA70615EBA63A00988E9D /* CatQA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatQA.h; sourceTree = "<group>"; };
+		B69CA70715EBA63A00988E9D /* CatQA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatQA.m; sourceTree = "<group>"; };
+		B69CA70A15EBAB0B00988E9D /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		B69CA70B15EBAB0B00988E9D /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		B6EBCE7015AA8E23006AA12D /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		B6EBCE7115AA8E23006AA12D /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		B6EBCE7315ACAAF5006AA12D /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		B6EBCE7415ACAAF5006AA12D /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64B251F1584541D00EF9DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B25271584541E00EF9DC0 /* UIKit.framework in Frameworks */,
+				B64B25291584541E00EF9DC0 /* Foundation.framework in Frameworks */,
+				B64B252B1584541E00EF9DC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64B25481584541F00EF9DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B254F1584541F00EF9DC0 /* UIKit.framework in Frameworks */,
+				B64B25501584541F00EF9DC0 /* Foundation.framework in Frameworks */,
+				B64B25511584541F00EF9DC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B64B25171584541D00EF9DC0 = {
+			isa = PBXGroup;
+			children = (
+				20ECD7D41BD858C6008656BF /* MBP57.png */,
+				20E3C7641BB99C1900235CB2 /* BlogController.h */,
+				20E3C7651BB99C1900235CB2 /* BlogController.m */,
+				B68B08921612412E001B6A04 /* Default.png */,
+				B6EBCE7015AA8E23006AA12D /* Category.h */,
+				B6EBCE7115AA8E23006AA12D /* Category.m */,
+				B69CA70615EBA63A00988E9D /* CatQA.h */,
+				B6861BE315FCB2900085C4E2 /* CatQAController.h */,
+				B6861BE415FCB2900085C4E2 /* CatQAController.m */,
+				B69CA70715EBA63A00988E9D /* CatQA.m */,
+				B69CA70A15EBAB0B00988E9D /* Data.h */,
+				B69CA70B15EBAB0B00988E9D /* Data.m */,
+				20F2D32D169555E8006F5E8B /* saraj57.png */,
+				20F2D32B16935837006F5E8B /* the_music_icon.png */,
+				B6EBCE7315ACAAF5006AA12D /* Categories.h */,
+				B6EBCE7415ACAAF5006AA12D /* Categories.m */,
+				B68B081F16077E51001B6A04 /* adviceDomain.h */,
+				20387BD91BBB099F0007D6F2 /* BlogDomain.h */,
+				20387BDA1BBB099F0007D6F2 /* BlogDomain.m */,
+				B68B082216078217001B6A04 /* AdviceContoller.h */,
+				B68B082316078217001B6A04 /* AdviceContoller.m */,
+				B64B252C1584541E00EF9DC0 /* SarahJMP */,
+				B64B25541584541F00EF9DC0 /* SarahJMPTests */,
+				B64B25251584541E00EF9DC0 /* Frameworks */,
+				B64B25231584541D00EF9DC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B64B25231584541D00EF9DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64B25221584541D00EF9DC0 /* SarahJMP.app */,
+				B64B254C1584541F00EF9DC0 /* SarahJMPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64B25251584541E00EF9DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64B25261584541E00EF9DC0 /* UIKit.framework */,
+				B64B25281584541E00EF9DC0 /* Foundation.framework */,
+				B64B252A1584541E00EF9DC0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B64B252C1584541E00EF9DC0 /* SarahJMP */ = {
+			isa = PBXGroup;
+			children = (
+				20D16FDB16B5F60800A92AF1 /* DisclaimerViewController.m */,
+				B68B082016077E52001B6A04 /* adviceDomain.m */,
+				20D16FDC16B5F60800A92AF1 /* DisclaimerViewController.xib */,
+				20D16FDA16B5F60800A92AF1 /* DisclaimerViewController.h */,
+				200F31D616926A56005AC5B2 /* sarahj.jpg */,
+				B67E00E51673CB3300E6F0FD /* SarahJMP.entitlements */,
+				B64B25351584541E00EF9DC0 /* SarahJMPAppDelegate.h */,
+				B64B25361584541E00EF9DC0 /* SarahJMPAppDelegate.m */,
+				B68B0899161242F7001B6A04 /* AdviceUIController.h */,
+				B68B089A161242F7001B6A04 /* AdviceUIController.m */,
+				B68B089B161242F7001B6A04 /* AdviceUIController.xib */,
+				B6861BDD15FC99690085C4E2 /* CategoryViewController.h */,
+				B6861BDE15FC99690085C4E2 /* CategoryViewController.m */,
+				B6861BDF15FC996A0085C4E2 /* CategoryViewController.xib */,
+				B64B25381584541E00EF9DC0 /* MainWindow.xib */,
+				B69A9AC115FF4D210000A1D2 /* QuestionUIController.h */,
+				B69A9AC215FF4D210000A1D2 /* QuestionUIController.m */,
+				B69A9AC315FF4D220000A1D2 /* QuestionUIController.xib */,
+				B68AF0181602D52B00DFADE0 /* AnswerUIController.h */,
+				20F2D33916B5EA07006F5E8B /* HelpViewController.h */,
+				B68AF0191602D52B00DFADE0 /* AnswerUIController.m */,
+				B68AF01A1602D52B00DFADE0 /* AnswerUIController.xib */,
+				B64B253E1584541E00EF9DC0 /* SecondViewController.h */,
+				B64B253F1584541E00EF9DC0 /* SecondViewController.m */,
+				B64B25441584541E00EF9DC0 /* SecondView.xib */,
+				B64B252D1584541E00EF9DC0 /* Supporting Files */,
+				B64B25681584576200EF9DC0 /* SearchViewController.h */,
+				B64B25691584576200EF9DC0 /* SearchViewController.m */,
+				B64B256A1584576200EF9DC0 /* SearchViewController.xib */,
+				B64B257215845F5E00EF9DC0 /* SarahJViewController.h */,
+				B64B257315845F5E00EF9DC0 /* SarahJViewController.m */,
+				B64B257415845F5E00EF9DC0 /* SarahJViewController.xib */,
+				B6861BE615FCC9250085C4E2 /* FirstViewController.h */,
+				B6861BE715FCC9250085C4E2 /* FirstViewController.m */,
+				B6861BE815FCC9260085C4E2 /* FirstViewController.xib */,
+				20F2D33A16B5EA07006F5E8B /* HelpViewController.m */,
+				20F2D33B16B5EA07006F5E8B /* HelpViewController.xib */,
+				20ECD7CD1BCF21A6008656BF /* BlogViewController.h */,
+				20ECD7CE1BCF21A6008656BF /* BlogViewController.m */,
+				20ECD7CF1BCF21A6008656BF /* BlogViewController.xib */,
+				20ECD7D21BD8582E008656BF /* Images.xcassets */,
+			);
+			path = SarahJMP;
+			sourceTree = "<group>";
+		};
+		B64B252D1584541E00EF9DC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64B252E1584541E00EF9DC0 /* SarahJMP-Info.plist */,
+				B64B252F1584541E00EF9DC0 /* InfoPlist.strings */,
+				B64B25321584541E00EF9DC0 /* main.m */,
+				B64B25341584541E00EF9DC0 /* SarahJMP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B64B25541584541F00EF9DC0 /* SarahJMPTests */ = {
+			isa = PBXGroup;
+			children = (
+				B64B255A1584541F00EF9DC0 /* SarahJMPTests.h */,
+				B64B255C1584541F00EF9DC0 /* SarahJMPTests.m */,
+				B64B25551584541F00EF9DC0 /* Supporting Files */,
+			);
+			path = SarahJMPTests;
+			sourceTree = "<group>";
+		};
+		B64B25551584541F00EF9DC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64B25561584541F00EF9DC0 /* SarahJMPTests-Info.plist */,
+				B64B25571584541F00EF9DC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64B25211584541D00EF9DC0 /* SarahJMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64B25601584541F00EF9DC0 /* Build configuration list for PBXNativeTarget "SarahJMP" */;
+			buildPhases = (
+				B64B251E1584541D00EF9DC0 /* Sources */,
+				B64B251F1584541D00EF9DC0 /* Frameworks */,
+				B64B25201584541D00EF9DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SarahJMP;
+			productName = SarahJMP;
+			productReference = B64B25221584541D00EF9DC0 /* SarahJMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B64B254B1584541F00EF9DC0 /* SarahJMPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64B25631584541F00EF9DC0 /* Build configuration list for PBXNativeTarget "SarahJMPTests" */;
+			buildPhases = (
+				B64B25471584541F00EF9DC0 /* Sources */,
+				B64B25481584541F00EF9DC0 /* Frameworks */,
+				B64B25491584541F00EF9DC0 /* Resources */,
+				B64B254A1584541F00EF9DC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64B25531584541F00EF9DC0 /* PBXTargetDependency */,
+			);
+			name = SarahJMPTests;
+			productName = SarahJMPTests;
+			productReference = B64B254C1584541F00EF9DC0 /* SarahJMPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64B25191584541D00EF9DC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0720;
+				LastUpgradeCheck = 0450;
+				TargetAttributes = {
+					B64B25211584541D00EF9DC0 = {
+						DevelopmentTeam = 7RMGY8CV3H;
+					};
+				};
+			};
+			buildConfigurationList = B64B251C1584541D00EF9DC0 /* Build configuration list for PBXProject "SarahJMP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B64B25171584541D00EF9DC0;
+			productRefGroup = B64B25231584541D00EF9DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64B25211584541D00EF9DC0 /* SarahJMP */,
+				B64B254B1584541F00EF9DC0 /* SarahJMPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64B25201584541D00EF9DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B25311584541E00EF9DC0 /* InfoPlist.strings in Resources */,
+				B64B253A1584541E00EF9DC0 /* MainWindow.xib in Resources */,
+				B64B25461584541E00EF9DC0 /* SecondView.xib in Resources */,
+				B64B256C1584576200EF9DC0 /* SearchViewController.xib in Resources */,
+				B64B257615845F5F00EF9DC0 /* SarahJViewController.xib in Resources */,
+				B6861BE115FC996B0085C4E2 /* CategoryViewController.xib in Resources */,
+				B6861BEA15FCC92D0085C4E2 /* FirstViewController.xib in Resources */,
+				20ECD7D51BD858C6008656BF /* MBP57.png in Resources */,
+				20ECD7D11BCF21A6008656BF /* BlogViewController.xib in Resources */,
+				B69A9AC515FF4D220000A1D2 /* QuestionUIController.xib in Resources */,
+				20ECD7D31BD8582E008656BF /* Images.xcassets in Resources */,
+				B68AF01C1602D52C00DFADE0 /* AnswerUIController.xib in Resources */,
+				B68B08931612412E001B6A04 /* Default.png in Resources */,
+				B68B089D161242F7001B6A04 /* AdviceUIController.xib in Resources */,
+				200F31D716926A56005AC5B2 /* sarahj.jpg in Resources */,
+				20F2D32C16935837006F5E8B /* the_music_icon.png in Resources */,
+				20F2D32E169555E8006F5E8B /* saraj57.png in Resources */,
+				20F2D33D16B5EA07006F5E8B /* HelpViewController.xib in Resources */,
+				20D16FDE16B5F60800A92AF1 /* DisclaimerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64B25491584541F00EF9DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B25591584541F00EF9DC0 /* InfoPlist.strings in Resources */,
+				B64B255B1584541F00EF9DC0 /* SarahJMPTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B64B254A1584541F00EF9DC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64B251E1584541D00EF9DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B25331584541E00EF9DC0 /* main.m in Sources */,
+				B64B25371584541E00EF9DC0 /* SarahJMPAppDelegate.m in Sources */,
+				B64B25401584541E00EF9DC0 /* SecondViewController.m in Sources */,
+				B64B256B1584576200EF9DC0 /* SearchViewController.m in Sources */,
+				B64B257515845F5F00EF9DC0 /* SarahJViewController.m in Sources */,
+				B6EBCE7215AA8E23006AA12D /* Category.m in Sources */,
+				B6EBCE7515ACAAF5006AA12D /* Categories.m in Sources */,
+				B69CA70815EBA63A00988E9D /* CatQA.m in Sources */,
+				B69CA70C15EBAB0B00988E9D /* Data.m in Sources */,
+				B6861BE015FC996B0085C4E2 /* CategoryViewController.m in Sources */,
+				20387BDB1BBB099F0007D6F2 /* BlogDomain.m in Sources */,
+				B6861BE515FCB2910085C4E2 /* CatQAController.m in Sources */,
+				20ECD7D01BCF21A6008656BF /* BlogViewController.m in Sources */,
+				B6861BE915FCC92D0085C4E2 /* FirstViewController.m in Sources */,
+				B69A9AC415FF4D220000A1D2 /* QuestionUIController.m in Sources */,
+				B68AF01B1602D52C00DFADE0 /* AnswerUIController.m in Sources */,
+				20E3C7661BB99C1900235CB2 /* BlogController.m in Sources */,
+				B68B082116077E52001B6A04 /* adviceDomain.m in Sources */,
+				B68B082416078218001B6A04 /* AdviceContoller.m in Sources */,
+				B68B089C161242F7001B6A04 /* AdviceUIController.m in Sources */,
+				20F2D33C16B5EA07006F5E8B /* HelpViewController.m in Sources */,
+				20D16FDD16B5F60800A92AF1 /* DisclaimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64B25471584541F00EF9DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B255D1584541F00EF9DC0 /* SarahJMPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64B25531584541F00EF9DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64B25211584541D00EF9DC0 /* SarahJMP */;
+			targetProxy = B64B25521584541F00EF9DC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B64B252F1584541E00EF9DC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64B25301584541E00EF9DC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B64B25381584541E00EF9DC0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64B25391584541E00EF9DC0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B64B25441584541E00EF9DC0 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64B25451584541E00EF9DC0 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		B64B25571584541F00EF9DC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64B25581584541F00EF9DC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64B255E1584541F00EF9DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dewayne Thomas (HCLV6EWQR6)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2ED0F92C-B529-44B2-9D94-850CCDFFD317";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B64B255F1584541F00EF9DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dewayne Thomas (HCLV6EWQR6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dewayne Thomas (HCLV6EWQR6)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2ED0F92C-B529-44B2-9D94-850CCDFFD317";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2ED0F92C-B529-44B2-9D94-850CCDFFD317";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B64B25611584541F00EF9DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SarahJMP/SarahJMP-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SarahJMP/SarahJMP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f55c8a97-3770-4b7d-9e5c-31b37eb3f106";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B64B25621584541F00EF9DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SarahJMP/SarahJMP-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SarahJMP/SarahJMP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f55c8a97-3770-4b7d-9e5c-31b37eb3f106";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B64B25641584541F00EF9DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SarahJMP.app/SarahJMP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SarahJMP/SarahJMP-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SarahJMPTests/SarahJMPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B64B25651584541F00EF9DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SarahJMP.app/SarahJMP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SarahJMP/SarahJMP-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SarahJMPTests/SarahJMPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64B251C1584541D00EF9DC0 /* Build configuration list for PBXProject "SarahJMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64B255E1584541F00EF9DC0 /* Debug */,
+				B64B255F1584541F00EF9DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64B25601584541F00EF9DC0 /* Build configuration list for PBXNativeTarget "SarahJMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64B25611584541F00EF9DC0 /* Debug */,
+				B64B25621584541F00EF9DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64B25631584541F00EF9DC0 /* Build configuration list for PBXNativeTarget "SarahJMPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64B25641584541F00EF9DC0 /* Debug */,
+				B64B25651584541F00EF9DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B64B25191584541D00EF9DC0 /* Project object */;
+}
